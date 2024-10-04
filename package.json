@@ -1,6 +1,12 @@
 {
   "name": "survival-typescript-tutorial-jest",
   "license": "UNLICENSED",
+  "scripts": {
+    "test": "jest",
+    "format": "biome format --write src",
+    "lint": "biome lint --write src",
+    "check": "biome check --write src"
+  },
   "devDependencies": {
     "@biomejs/biome": "1.9.3",
     "@types/jest": "^28.0.0",
