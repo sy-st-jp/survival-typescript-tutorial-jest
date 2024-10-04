@@ -1,4 +1,7 @@
 {
   "name": "survival-typescript-tutorial-jest",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
 }
